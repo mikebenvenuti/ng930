@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script src="app.module.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body ng-app="app">
+
+<div ng-controller="myctrl as vm">
+   <div ng-repeat = "item in vm.items">
+       <div> {{item.name}}</div>
+   </div>
+
+
+
+
+</div>
+             <button class="btn btn-primary" >save it </button>
+</body>
+</html>
