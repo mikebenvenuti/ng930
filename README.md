@@ -1,6 +1,6 @@
 ng930
 =====
-##Information about ng903
+##Information about ng930
 
    
    Using Bower with Webstorm to load the js libraries
